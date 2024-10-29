@@ -2,12 +2,10 @@ package contohkelaspertama;
 
 public class Main {
     public static void main(String[] args) {
-        Mobil mobilHitam = new Mobil
-        mobilHitam.tampilkanInfo();
+        Mobil toyota = new Mobil("Merah", "toyota", 180);
+        toyota.tampilkanInfo();
 
-        Mobil mobilMerah = new Mobil( warna: "Merah", merek: "Honda", kecepatanMaks: 200);
+        Mobil mobilMerah = new Mobil( "Merah", "Honda", 200);
         mobilMerah.tampilkanInfo();
-
-
     }
 }

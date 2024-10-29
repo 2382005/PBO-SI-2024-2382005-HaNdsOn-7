@@ -1,7 +1,6 @@
-public class SegitigaSamaSisi {
-}package polimorfisme;
+package polimorfisme;
 
-public class SegitigaSamaSisi extends polimorfisme.BangunDatar {
+public class SegitigaSamaSisi extends BangunDatar {
     private Double sisi;
     private Double tinggi;
 
@@ -20,4 +19,3 @@ public class SegitigaSamaSisi extends polimorfisme.BangunDatar {
         return 3 * sisi;
     }
 }
-
